@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Geweldig! Of toch iets anders?",
+  "version": "0.01",
+  "content_scripts": [
+    {
+    "matches": ["*://www.nrc.nl/*"],
+    "js": ["content.js"]
+    }
+  ]
+}
